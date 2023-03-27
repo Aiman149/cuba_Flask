@@ -10,7 +10,7 @@ def home():
 
 @app.route('/cuba')
 def cuba():
-    return render_template('flask.html', tahun='2023')
+    return render_template('cuba.html', tahun='2023')
 
 
 if __name__ == '__main__':
